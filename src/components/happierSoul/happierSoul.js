@@ -1,5 +1,5 @@
 import React from 'react';
-import bild1 from '/Users/irupepozograviz/Desktop/Linn/src/images/AdobeStock_64819783_Preview.jpeg'
+import bild1 from '../../images/AdobeStock_64819783_Preview.jpeg'
 import '../../css/HappierSoul.css';
 
 const SectionOne = () => {
