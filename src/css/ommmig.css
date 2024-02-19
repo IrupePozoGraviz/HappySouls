@@ -1,0 +1,57 @@
+.OmMig{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+.LinnImage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.OmMig h1{
+    color: var(--text1-color);
+    padding-bottom: 1rem;
+}
+.OmMig h2{
+    color: var(--text1-color);
+    font-size: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+
+/* Styles for smaller tablets */
+@media (min-width: 768px) and (max-width: 819px) {}
+
+/* Styles for desktop */
+@media (min-width: 820px) {
+    .OmMig{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 50px;
+     }
+}
+
+/* Styles for large desktops */
+@media (min-width: 1024px) {
+ .OmMig{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+ }   
+}
+
+/* Styles for large desktops */
+@media (min-width: 1200px) {}

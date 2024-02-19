@@ -1,0 +1,12 @@
+.tjanster{
+    background-color: var(--primary-color);
+    color: var(--third-color);
+    padding: 1rem;
+}
+.tjansterImage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
