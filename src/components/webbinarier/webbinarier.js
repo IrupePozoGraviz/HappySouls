@@ -4,19 +4,21 @@ import '../../css/webbinarier.css';
 const SectionThree = () => {
     return (
 
-        <div className="webbinarie">
+        <div className="Webinarie">
         <h1> Webbinarier</h1>
-        <div className="Webbinarie1">
-                <h1> Webbinarie1</h1>
+        <div className="Webinarie1">
+                <h2> Webbinarie 1</h2>
                 <p>
-                   Webinarie 1
+                Hos Happier Soul finner du vägen till ett inre lugn och äkta livsglädje.
                 </p>
+                <p>Pris</p>
                 </div>
-                <div className="Webbinarie2">
-                    <h1> Webbinarie2</h1>
+                <div className="Webinarie2">
+                    <h2> Webbinarie 2</h2>
                 <p>
-                   Webinarie 2
+                Hos Happier Soul finner du vägen till ett inre lugn och äkta livsglädje.
                 </p>
+                <p>Pris</p>
                 </div>
         </div>
     

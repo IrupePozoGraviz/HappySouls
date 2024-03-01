@@ -7,7 +7,10 @@
     justify-content: center;
     width: 100%;
     margin-bottom: 50px;
+    color: var(--text1-color);
+    border-bottom: 0.2rem solid #237C91;
 }
+
 .HappierSoulImage{
     width: 100%;
     display: flex;
@@ -15,6 +18,12 @@
     align-items: center;
     justify-content: center;
 }
+
+.HappierSoulMain h1{
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+
 
 .Soul-text{
     width: 100%;
@@ -42,6 +51,10 @@
     font-size: 1rem;
     color: var(--text1-color);
     padding: 1rem 1rem 1rem 1rem;
+}
+
+.ContactButton{
+    margin-bottom: 2rem;
 }
 /* Styles for smaller tablets */
 @media (min-width: 768px) and (max-width: 819px) {}

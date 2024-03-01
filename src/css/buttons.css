@@ -8,17 +8,18 @@
     gap: 0.625rem; /* 10px */
 }
 
-.btnAbout, .contactButton, .MoreInfoBtn {
+.contactButton{
     font-size: 1.125rem;
-    background-color: #FEF6EB;
-    color: #4C5270;
+    background-color: var(--text1-color);
+    color: var(--primary-color);
     width: 20vh;
     border: none;
     border-radius: 0.625rem; /* 10px */
     padding: 0.4375rem 0rem 0.3125rem 0rem; /* 7px 0px 5px 0px */
     margin-right: 0.625rem; /* 10px */
     cursor: pointer;
-    border: solid 1px #4C5270;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 /* In the above, I combined the styles for .btnAbout, .contactButton, .MoreInfoBtn, and .projectsBtn since they share the same properties. */

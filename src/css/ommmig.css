@@ -13,6 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 2rem 0rem 1rem 0rem;
 }
 .OmMig h1{
     color: var(--text1-color);
@@ -23,6 +24,9 @@
     font-size: 1rem;
     padding: 1rem 1rem 1rem 1rem;
 
+}
+.Soul-text{
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 
