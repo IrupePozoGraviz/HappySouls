@@ -44,12 +44,12 @@ const ContactForm = () => {
           <fieldset className="paketSektion">
             <label htmlFor="paket1">
               <input type="checkbox" name="paket" value="paket1" id="paket1" />
-             Övrigt
+            Webbinarie
             </label>
           </fieldset>
         </div>
         <div className="övrigtSektion">
-          <h2>Övriga frågor eller kommentarer</h2>
+          <h2>Övriga frågor eller kommentarer eller vilket seminarie du anmäler dig till</h2>
           <textarea id="ovrigt" name="ovrigt" />
           <ValidationError prefix="Kommentar" field="ovrigt" errors={state.errors} />
         </div>
