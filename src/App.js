@@ -8,6 +8,8 @@ import SectionFour from './components/Ommig/ommig';
 import SectionTwo from './components/tjänster/tjanster'; 
 import { Header } from './components/header';
 import { Footer } from './components/footer';
+import { ModalProvider } from './components/modalContext';
+import { ContactModal } from './components/modal';
 import './index.css';
 
 const ScrollToTop = () => {
@@ -24,6 +26,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <ScrollToTop />
+        <ModalProvider>
         <Header role="banner" />
         <div role="main">
           <Routes>
@@ -36,7 +39,9 @@ function App() {
             {/* <Route path="*" element={<NotFoundPage />} /> */}
           </Routes>
         </div>
+        <ContactModal />
         <Footer role="contentinfo"/>
+        </ModalProvider>
       </div>
     </BrowserRouter>
   );

@@ -1,6 +1,7 @@
 import React from 'react';
 import bild1 from '../../images/AdobeStock_64819783_Preview.jpeg'
 import '../../css/HappierSoul.css';
+import { ContactButton } from '../contactButton'
 
 const SectionOne = () => {
   return (
@@ -20,6 +21,7 @@ const SectionOne = () => {
  Ta kontroll över din lycka – bli en Happier Soul.
         </p>
       </div>
+      <ContactButton/>
     </div>
   );
 }
