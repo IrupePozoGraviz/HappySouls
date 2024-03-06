@@ -6,6 +6,7 @@ const SectionThree = () => {
 
         <div className="Webinarie">
         <h1> Webbinarier</h1>
+        <section className="webbinarie-section">
         <div className="Webinarie1">
                 <h2> Webbinarie 1</h2>
                 <p>
@@ -20,6 +21,7 @@ const SectionThree = () => {
                 </p>
                 <p>Pris</p>
                 </div>
+                </section>
         </div>
     
     );
