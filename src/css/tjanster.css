@@ -12,11 +12,12 @@
 
 .tjansterImage{
     width: 100%;
+    margin-bottom: 4rem;
  
 }
 
-.tjanster h1{
-    margin-top: 2rem;
+.tjanster-main h1{
+    margin-bottom: 2rem;
     
 }
 
@@ -27,6 +28,7 @@
     margin: 1.5rem 5rem 1rem 5rem;
     box-shadow: 0px 4px 8px rgba(35, 124, 145, 0.5); /* X-offset, Y-offset, Blur-radius, Färg */
     border-radius: 1.5rem;
+    margin-bottom: 3rem;
 
 }
 .tjanst2{
@@ -36,6 +38,7 @@
     margin: 1.5rem 5rem 1rem 5rem;
     box-shadow: 0px 4px 8px rgba(35, 124, 145, 0.5); /* X-offset, Y-offset, Blur-radius, Färg */
     border-radius: 1.5rem;
+    margin-bottom: 3rem;
 }
 .tjanst3{
     display:flex;
@@ -44,6 +47,7 @@
     margin: 1.5rem 5rem 1rem 5rem;
     box-shadow: 0px 4px 8px rgba(35, 124, 145, 0.5); /* X-offset, Y-offset, Blur-radius, Färg */
     border-radius: 1.5rem;
+    margin-bottom: 6rem;
 }
 
 .tjanst1 h2{
@@ -79,7 +83,6 @@
 @media (min-width: 768px) and (max-width: 819px) {
 
     .tjanster h1{
-        margin-top: 2rem;
         font-size: 3rem;
     }
     .tjanst1{
@@ -124,7 +127,6 @@
     @media (min-width: 820px) {
     
         .tjanster h1{
-            margin-top: 2rem;
             font-size: 3rem;
         }
         .tjanst1{
@@ -174,7 +176,6 @@
     @media (min-width: 1024px) {
     
         .tjanster h1{
-            margin-top: 2rem;
             font-size: 3rem;
         }
         .tjanst1{
