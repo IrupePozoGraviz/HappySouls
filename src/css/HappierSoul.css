@@ -21,29 +21,6 @@
 }
 
 
-
-
-.Soul-text{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.Soul-text h1{
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 1rem 1rem 0rem 1rem;
-    color: var(--text1-color)
-}
-
-.Soul-text p{
-    font-size: 1rem;
-    color: var(--text1-color);
-    padding: 1rem 1rem 1rem 1rem;
-}
-
 .Soul-text-body
 {
     font-size: 1rem;
@@ -83,14 +60,7 @@ padding: 2rem;
 
 /* Styles for large desktops */
 @media (min-width: 1024px) {
- .HappierSoul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 50px;
- }   
+  
 }
 
 /* Styles for large desktops */

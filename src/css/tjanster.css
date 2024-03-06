@@ -1,4 +1,5 @@
-.tjanster{
+
+.tjanster-main{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,6 +9,7 @@
     padding: 1rem;
     border-bottom: 0.2rem solid #237C91;
 }
+
 .tjansterImage{
     width: 100%;
  
@@ -15,36 +17,49 @@
 
 .tjanster h1{
     margin-top: 2rem;
+    
 }
 
 .tjanst1{
+    display:flex;
+    flex-direction: column;
     padding: 1rem 2rem 1rem 2rem;
     margin: 1.5rem 5rem 1rem 5rem;
     box-shadow: 0px 4px 8px rgba(35, 124, 145, 0.5); /* X-offset, Y-offset, Blur-radius, Färg */
-    border-radius: 0.4rem;
+    border-radius: 1.5rem;
 
 }
 .tjanst2{
+    display:flex;
+    flex-direction: column;
     padding: 1rem 2rem 1rem 2rem;
-    margin: 1rem 5rem 1rem 5rem;
+    margin: 1.5rem 5rem 1rem 5rem;
     box-shadow: 0px 4px 8px rgba(35, 124, 145, 0.5); /* X-offset, Y-offset, Blur-radius, Färg */
-    border-radius: 0.4rem;
+    border-radius: 1.5rem;
 }
 .tjanst3{
+    display:flex;
+    flex-direction: column;
     padding: 1rem 2rem 1rem 2rem;
-    margin: 1rem 5rem 1rem 5rem;
+    margin: 1.5rem 5rem 1rem 5rem;
     box-shadow: 0px 4px 8px rgba(35, 124, 145, 0.5); /* X-offset, Y-offset, Blur-radius, Färg */
-    border-radius: 0.4rem;
+    border-radius: 1.5rem;
 }
 
 .tjanst1 h2{
-    padding: 0.7rem;  
+    margin-top: 2rem;
+    padding: 0.7rem; 
+    text-align: center; 
 }
 .tjanst2 h2{
-    padding: 0.7rem;  
+    margin-top: 2rem;
+    padding: 0.7rem; 
+    text-align: center; 
 }
 .tjanst3 h2{
-    padding: 0.7rem;  
+    margin-top: 2rem;
+    padding: 0.7rem; 
+    text-align: center;  
 }
 
 .tjanst1 p{
@@ -59,3 +74,152 @@
     padding: 0.7rem;
     font-size: 0.9rem;
  }
+
+ /* Styles for smaller tablets */
+@media (min-width: 768px) and (max-width: 819px) {
+
+    .tjanster h1{
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+    .tjanst1{
+        width: 400px;
+        height: 500px;
+    
+    }
+    .tjanst2{
+        width: 400px;
+        height: 500px;
+    }
+    .tjanst3{
+        width: 400px;
+        height: 500px;
+    }
+    
+    .tjanst1 h2{
+        font-size: 2rem;
+    }
+    .tjanst2 h2{
+        font-size: 2rem; 
+    }
+    .tjanst3 h2{
+        font-size: 2rem; 
+    }
+    
+    .tjanst1 p{
+        margin-top: 2rem;
+       font-size: 2rem;
+    }
+    .tjanst2 p{
+        margin-top: 2rem;
+        font-size: 2rem;
+     }
+     .tjanst3 p{
+        margin-top: 2rem;
+        font-size: 2rem;
+     }
+    }
+    
+    /* Styles for desktop */
+    @media (min-width: 820px) {
+    
+        .tjanster h1{
+            margin-top: 2rem;
+            font-size: 3rem;
+        }
+        .tjanst1{
+            width: 400px;
+            height: 500px;
+        
+        }
+        .tjanst2{
+            width: 400px;
+            height: 500px;
+        }
+        .tjanst3{
+            width: 400px;
+            height: 500px;
+            margin-bottom: 4rem;
+        }
+        
+        .tjanst1 h2{
+            font-size: 2rem;
+            padding: 0.7rem;  
+        }
+        .tjanst2 h2{
+            font-size: 2rem;
+            padding: 0.7rem;  
+        }
+        .tjanst3 h2{
+            font-size: 2rem;
+            padding: 0.7rem;  
+        }
+        
+        .tjanst1 p{
+            margin-top: 2rem;
+            font-size: 2rem;
+        }
+        .tjanst2 p{
+            margin-top: 2rem;
+            font-size: 2rem;
+         }
+         .tjanst3 p{
+            margin-top: 2rem;
+            font-size: 2rem;
+         }
+        }
+        
+    
+    /* Styles for large desktops */
+    @media (min-width: 1024px) {
+    
+        .tjanster h1{
+            margin-top: 2rem;
+            font-size: 3rem;
+        }
+        .tjanst1{
+            width: 400px;
+            height: 500px;
+        
+        }
+        .tjanst2{
+            width: 400px;
+            height: 500px;
+        }
+        .tjanst3{
+            width: 400px;
+            height: 500px;
+            margin-bottom: 4rem;
+        }
+        
+        .tjanst1 h2{
+            font-size: 2rem;
+            padding: 0.7rem;  
+        }
+        .tjanst2 h2{
+            font-size: 2rem;
+            padding: 0.7rem;  
+        }
+        .tjanst3 h2{
+            font-size: 2rem;
+            padding: 0.7rem;  
+        }
+        
+        .tjanst1 p{
+            margin-top: 2rem;
+            font-size: 2rem;
+        }
+        .tjanst2 p{
+            margin-top: 2rem;
+            font-size: 2rem;
+         }
+         .tjanst3 p{
+            margin-top: 2rem;
+            font-size: 2rem;
+         }
+    }
+    
+    /* Styles for large desktops */
+    @media (min-width: 1200px) {
+        
+    }

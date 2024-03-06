@@ -5,10 +5,10 @@ import '../../css/tjanster.css';
 
 const SectionTwo = () => {
     return (
-        <div className="tjanster">
+        <main className="tjanster-main">
         <img src={bild2} alt="Tjänster" className="tjansterImage" />
         <h1> Tjänster</h1>
-
+<div className="tjanster">
         <div className="tjanst1">
               <h2>
                  Tjänst 1
@@ -31,6 +31,7 @@ const SectionTwo = () => {
               <p>Pris</p>
             </div>
         </div>
+        </main>
     );
     };
 
