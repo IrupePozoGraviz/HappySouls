@@ -29,3 +29,36 @@
    5px = 5/16 = 0.3125rem
    10px = 10/16 = 0.625rem
 */
+/* Styles for smaller tablets */
+@media (min-width: 768px) and (max-width: 819px) {
+
+    .contactButton{
+        font-size: 1.5rem;
+        padding: 0.5rem 0rem 0.5rem 0rem; /* 7px 0px 5px 0px */
+    
+    }
+    }
+    
+    /* Styles for desktop */
+    @media (min-width: 820px) {
+       
+        .contactButton{
+            font-size: 1.7rem;
+            padding: 0.8rem 0rem 0.8rem 0rem; /* 7px 0px 5px 0px */
+        
+        }
+    
+    }
+    
+    /* Styles for large desktops */
+    @media (min-width: 1024px) {
+     
+        .contactButton{
+            font-size: 1.9rem;
+            padding: 0.9rem 0rem 0.9rem 0rem; /* 7px 0px 5px 0px */
+        
+        } 
+    }
+    
+    /* Styles for large desktops */
+    @media (min-width: 1200px) {}
