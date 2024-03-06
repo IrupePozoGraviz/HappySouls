@@ -17,11 +17,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
-.HappierSoulMain h1{
-    margin: 2rem 0rem 2rem 0rem;
-}
 
 
 
@@ -60,71 +58,27 @@
 @media (min-width: 768px) and (max-width: 819px) {
 
 .HappierSoulMain h1{
-    margin: 2rem 0rem 2rem 0rem;
     font-size: 3rem;
 }
 
-
+.Soul-text-body{
+padding: 2rem;
+}
 .Soul-text-body p{
     font-size: 1.5rem;
-    color: var(--text1-color);
     padding: 1rem 1rem 1rem 1rem;
-}
-
-.ContactButton{
-    margin-bottom: 2rem;
-    font-size: 1.3rem;
 }
 }
 
 /* Styles for desktop */
 @media (min-width: 820px) {
-   
-.HappierSoulImage{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
-.HappierSoulMain h1{
-    margin: 2rem 0rem 2rem 0rem;
-}
-
-
-
-.Soul-text{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.Soul-text h1{
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 1rem 1rem 0rem 1rem;
-    color: var(--text1-color)
-}
-
-.Soul-text p{
-    font-size: 1rem;
-    color: var(--text1-color);
+.Soul-text-body p {
+    font-size: 1.7rem;
     padding: 1rem 1rem 1rem 1rem;
 }
 
-.Soul-text-body
-{
-    font-size: 1rem;
-    color: var(--text1-color);
-    padding: 1rem 1rem 1rem 1rem;
-}
 
-.ContactButton{
-    margin-bottom: 2rem;
-}
 }
 
 /* Styles for large desktops */
