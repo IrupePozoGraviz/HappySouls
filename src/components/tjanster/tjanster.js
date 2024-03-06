@@ -6,7 +6,7 @@ import '../../css/tjanster.css';
 const SectionTwo = () => {
     return (
         <main className="tjanster-main">
-        <img src={bild2} alt="Tjänster" className="tjansterImage" />
+        <img src={bild2} alt="bild på" className="tjansterImage" />
         <h1> Tjänster</h1>
 <div className="tjanster">
         <div className="tjanst1">

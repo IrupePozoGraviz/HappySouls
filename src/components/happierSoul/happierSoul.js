@@ -6,9 +6,9 @@ import { ContactButton } from '../contactButton'
 const SectionOne = () => {
   return (
     <div className="HappierSoulMain">
-      <img src={bild1} alt="Happier Soul" className="HappierSoulImage" />
+      <img src={bild1} alt="bild på snölandskap" className="HappierSoulImage" />
       <h1>Happier soul</h1>
-      <div className="Soul-text-body">
+      <div className="HappierSoul-body">
         {/* Use lowercase for standard HTML tags */}
         <p>
         Hos Happier Soul finner du vägen till ett inre lugn och äkta livsglädje.

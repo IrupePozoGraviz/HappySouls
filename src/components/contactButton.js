@@ -10,13 +10,23 @@ export const ContactButton = ({ style, children }) => {
     openModal();
   };
 
+  // Hantera tangentbordsinteraktioner
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      openModal();
+    }
+  };
+
   return (
     <button
       className="contactButton"
-      type="button" // Changed to 'button' type
+      type="button"
       style={style}
       onClick={handleClick}
-      aria-label={children ? undefined : 'Kontakta Happier soul'}>
+      onKeyDown={handleKeyPress}
+      aria-label={children ? children.toString() : 'Kontakta Happier soul'}
+      tabIndex={0} // Garanterar att knappen är fokuserbar
+    >
       {children || 'Kontakta mig'}
     </button>
   );

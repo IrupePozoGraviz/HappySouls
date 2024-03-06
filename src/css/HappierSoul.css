@@ -21,7 +21,7 @@
 }
 
 
-.Soul-text-body
+.HappierSoul-body
 {
     font-size: 1rem;
     color: var(--text1-color);
@@ -38,10 +38,10 @@
     font-size: 3rem;
 }
 
-.Soul-text-body{
+.HappierSoul-body{
 padding: 2rem;
 }
-.Soul-text-body p{
+.HappierSoul-body p{
     font-size: 1.5rem;
     padding: 1rem 1rem 1rem 1rem;
 }
@@ -50,7 +50,7 @@ padding: 2rem;
 /* Styles for desktop */
 @media (min-width: 820px) {
 
-.Soul-text-body p {
+.HappierSoul-body p {
     font-size: 1.7rem;
     padding: 1rem 1rem 1rem 1rem;
 }

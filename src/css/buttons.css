@@ -21,6 +21,11 @@
     margin-bottom: 2rem;
     margin-top: 1rem;
 }
+.contactButton:focus {
+    outline: 2px solid #237C91; /* Exempel på en fokusindikator */
+    outline-offset: 2px;
+}
+
 
 /* In the above, I combined the styles for .btnAbout, .contactButton, .MoreInfoBtn, and .projectsBtn since they share the same properties. */
 

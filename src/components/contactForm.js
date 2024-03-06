@@ -1,11 +1,10 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
-// this code renders a form based on the category chosen in the select element
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import '../css/modalForm.css';
 
 const ContactForm = () => {
   const [state, handleSubmit] = useForm('xxxxx');
+  
   if (state.succeeded) {
     return <p className="message">Tack för ditt meddelande! Vi kommer att kontakta dig snart.</p>;
   }
@@ -27,30 +26,27 @@ const ContactForm = () => {
           <ValidationError prefix="Telefon" field="telefon" errors={state.errors} />
         </div>
 
-        <div className="paketSektion">
-          <h2>Välj Paket:</h2>
-          <label>
-            <input type="checkbox" name="paket" value="paket1" />
-           Paket1
+        <fieldset className="paketSektion">
+          <legend>Välj Paket:</legend>
+          <label htmlFor="paket1">
+            <input type="checkbox" name="paket" value="paket1" id="paket1" />
+            Paket1
           </label>
-          <label>
-            <input type="checkbox" name="paket" value="paket2" />
-           Paket2
+          <label htmlFor="paket2">
+            <input type="checkbox" name="paket" value="paket2" id="paket2" />
+            Paket2
           </label>
-          <label>
-            <input type="checkbox" name="paket" value="paket3" />
-          Paket3
+          <label htmlFor="paket3">
+            <input type="checkbox" name="paket" value="paket3" id="paket3" />
+            Paket3
           </label>
-          <fieldset className="paketSektion">
-            <label htmlFor="paket1">
-              <input type="checkbox" name="paket" value="paket1" id="paket1" />
-            Webbinarie
-            </label>
-          </fieldset>
-        </div>
+        </fieldset>
+
         <div className="övrigtSektion">
-          <h2>Övriga frågor eller kommentarer eller vilket seminarie du anmäler dig till</h2>
-          <textarea id="ovrigt" name="ovrigt" />
+          <label htmlFor="ovrigt">
+            <h2>Övriga frågor eller kommentarer:</h2>
+            <textarea id="ovrigt" name="ovrigt" />
+          </label>
           <ValidationError prefix="Kommentar" field="ovrigt" errors={state.errors} />
         </div>
 
@@ -60,9 +56,4 @@ const ContactForm = () => {
   );
 };
 
-function contact() {
-  return (
-    <ContactForm />
-  );
-}
-export default contact;
+export default ContactForm;
