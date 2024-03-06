@@ -113,20 +113,18 @@ export const Navigate = () => {
         aria-hidden={!isOpen}>
         <ul>
           <li className="nav-coach">
-            <NavLink to="/" tabIndex={isOpen ? '0' : '-1'}>Separations Coachen</NavLink>
-          </li>
-          <li>
-            <NavLink to="/juridiskhjalp" tabIndex={isOpen ? '0' : '-1'}>Juridisk hjälp</NavLink>
-          </li>
-          <li>
-            <NavLink to="/tappningsterapi" tabIndex={isOpen ? '0' : '-1'}>Tappningsterapi</NavLink>
+            <NavLink to="/" tabIndex={isOpen ? '0' : '-1'}>Happier Soul</NavLink>
           </li>
           <li>
             <NavLink to="/tjanster" tabIndex={isOpen ? '0' : '-1'}>Tjänster</NavLink>
           </li>
           <li>
-            <NavLink to="/omMig" tabIndex={isOpen ? '0' : '-1'}>Om mig</NavLink>
+            <NavLink to="/webbinarier" tabIndex={isOpen ? '0' : '-1'}>Webbinarier</NavLink>
           </li>
+          <li>
+            <NavLink to="/ommig" tabIndex={isOpen ? '0' : '-1'}>Om Mig</NavLink>
+          </li>
+          
           {/* Fortsätt med fler NavLink-element här */}
         </ul>
       </nav>

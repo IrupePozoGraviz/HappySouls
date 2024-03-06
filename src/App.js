@@ -5,7 +5,7 @@ import Landningssida from './pages/landningssida';
 import SectionOne from './components/happierSoul/happierSoul';
 import SectionThree from './components/webbinarier/webbinarier';
 import SectionFour from './components/Ommig/ommig';
-import SectionTwo from './components/tjänster/tjanster'; 
+import SectionTwo from './components/tjanster/tjanster'; 
 import { Header } from './components/header';
 import { Footer } from './components/footer';
 import { ModalProvider } from './components/modalContext';
@@ -32,9 +32,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Landningssida />} />
             <Route path="/happierSoul" element={<SectionOne />} />
+            <Route path="/tjanster" element={<SectionTwo />} /> 
             <Route path="/webbinarier" element={<SectionThree />} />
             <Route path="/omMig" element={<SectionFour />} />
-            <Route path="/tjanster" element={<SectionTwo />} /> 
+            
             {/* Uncomment this line for a 404 page */}
             {/* <Route path="*" element={<NotFoundPage />} /> */}
           </Routes>
