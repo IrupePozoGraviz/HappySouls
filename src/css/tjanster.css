@@ -40,14 +40,11 @@
     border-radius: 1.5rem;
     margin-bottom: 3rem;
 }
-.tjanst3{
+.bokningsknapp{
     display:flex;
     flex-direction: column;
-    padding: 1rem 2rem 1rem 2rem;
-    margin: 1.5rem 5rem 1rem 5rem;
-    box-shadow: 0px 4px 8px rgba(35, 124, 145, 0.5); /* X-offset, Y-offset, Blur-radius, Färg */
-    border-radius: 1.5rem;
-    margin-bottom: 6rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .tjanst1 h2{
@@ -87,16 +84,12 @@
     }
     .tjanst1{
         width: 400px;
-        height: 500px;
+        height: auto;
     
     }
     .tjanst2{
         width: 400px;
-        height: 500px;
-    }
-    .tjanst3{
-        width: 400px;
-        height: 500px;
+        height: auto;
     }
     
     .tjanst1 h2{
@@ -117,10 +110,12 @@
         margin-top: 2rem;
         font-size: 2rem;
      }
-     .tjanst3 p{
-        margin-top: 2rem;
-        font-size: 2rem;
-     }
+     .bokningsknapp{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     }
     
     /* Styles for desktop */
@@ -131,17 +126,12 @@
         }
         .tjanst1{
             width: 400px;
-            height: 500px;
+            height: auto;
         
         }
         .tjanst2{
             width: 400px;
-            height: 500px;
-        }
-        .tjanst3{
-            width: 400px;
-            height: 500px;
-            margin-bottom: 4rem;
+            height: auto;
         }
         
         .tjanst1 h2{
@@ -149,10 +139,6 @@
             padding: 0.7rem;  
         }
         .tjanst2 h2{
-            font-size: 2rem;
-            padding: 0.7rem;  
-        }
-        .tjanst3 h2{
             font-size: 2rem;
             padding: 0.7rem;  
         }
@@ -165,10 +151,12 @@
             margin-top: 2rem;
             font-size: 2rem;
          }
-         .tjanst3 p{
-            margin-top: 2rem;
-            font-size: 2rem;
-         }
+         .bokningsknapp{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
         }
         
     
@@ -180,17 +168,12 @@
         }
         .tjanst1{
             width: 400px;
-            height: 500px;
+            height: auto;
         
         }
         .tjanst2{
             width: 400px;
-            height: 500px;
-        }
-        .tjanst3{
-            width: 400px;
-            height: 500px;
-            margin-bottom: 4rem;
+            height: auto;
         }
         
         .tjanst1 h2{
@@ -198,10 +181,6 @@
             padding: 0.7rem;  
         }
         .tjanst2 h2{
-            font-size: 2rem;
-            padding: 0.7rem;  
-        }
-        .tjanst3 h2{
             font-size: 2rem;
             padding: 0.7rem;  
         }
@@ -214,10 +193,12 @@
             margin-top: 2rem;
             font-size: 2rem;
          }
-         .tjanst3 p{
-            margin-top: 2rem;
-            font-size: 2rem;
-         }
+         .bokningsknapp{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
     }
     
     /* Styles for large desktops */

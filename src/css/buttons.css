@@ -26,14 +26,20 @@
     outline-offset: 2px;
 }
 
+.BookingButton{
+font-size: 1.125rem;
+    background-color: var(--text1-color);
+    color: var(--primary-color);
+    width: 20vh;
+    border: none;
+    border-radius: 0.625rem; /* 10px */
+    padding: 0.4375rem 0rem 0.3125rem 0rem; /* 7px 0px 5px 0px */
+    margin-right: 0.625rem; /* 10px */
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
 
-/* In the above, I combined the styles for .btnAbout, .contactButton, .MoreInfoBtn, and .projectsBtn since they share the same properties. */
-
-/* Conversion:
-   7px = 7/16 = 0.4375rem
-   5px = 5/16 = 0.3125rem
-   10px = 10/16 = 0.625rem
-*/
 /* Styles for smaller tablets */
 @media (min-width: 768px) and (max-width: 819px) {
 
@@ -41,6 +47,19 @@
         font-size: 1.5rem;
         padding: 0.5rem 0rem 0.5rem 0rem; /* 7px 0px 5px 0px */
     
+    }
+    .BookingButton{
+        font-size: 1.5rem;
+        background-color: var(--secondary-color);
+        color: var(--third-color);
+        width: 20vh;
+        border: none;
+        border-radius: 0.625rem; /* 10px */
+        padding: 0.5rem 0rem 0.5rem 0rem; /* 7px 0px 5px 0px */
+        margin-right: 0.625rem; /* 10px */
+        cursor: pointer;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
     }
     }
     
@@ -52,6 +71,10 @@
             padding: 0.8rem 0rem 0.8rem 0rem; /* 7px 0px 5px 0px */
         
         }
+        .BookingButton{
+            font-size: 1.7rem;
+            padding: 0.7rem 0rem 0.7rem 0rem;
+        }
     
     }
     
@@ -62,8 +85,17 @@
             font-size: 1.9rem;
             padding: 0.9rem 0rem 0.9rem 0rem; /* 7px 0px 5px 0px */
         
+        }
+        .BookingButton{
+            font-size: 1.7rem;
+            padding: 0.7rem 0rem 0.7rem 0rem;
         } 
     }
     
     /* Styles for large desktops */
-    @media (min-width: 1200px) {}
+    @media (min-width: 1200px) {
+        .BookingButton{
+            font-size: 1.5rem;
+            width: 10vh;
+        }
+    }
